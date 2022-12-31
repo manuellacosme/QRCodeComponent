@@ -2,18 +2,18 @@ body {
     margin: 0;
     background-color: hsl(212, 45%, 89%);
     font-family: 'Outfit', sans-serif;
+    min-height: 100vh;
+    display: grid;
+    place-content: center;
 }
 
 .container {
     background-color: hsl(0, 0%, 100%);
-    margin: 150px auto 130px auto;
     width: 260px;
     height: 300px;
     padding: 15px 55px 175px 15px;
     border-radius: 4%;
-    position: relative;
-    justify-content: center;
-    align-items: center;
+}
 }
 
 .qr-code-img {
@@ -37,6 +37,3 @@ p {
     margin: 15px 15px 15px 15px;
     width: 270px;
 }
-
-
-
